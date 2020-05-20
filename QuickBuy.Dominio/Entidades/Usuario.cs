@@ -16,6 +16,10 @@ namespace QuickBuy.Dominio.Entidades
         public string Sobrenome { get; set; }
 
 
+        //um ou mais pedidos
+        public ICollection<Pedido> Pedidos { get; set; }
+
+
 
     }
 }
